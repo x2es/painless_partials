@@ -1,7 +1,6 @@
 #
 # TODO: test for ajax case
 #       create specs
-#       setup only for development env
 #
 class ActionView::Template
   def render_with_map_wrap(*args, &block)

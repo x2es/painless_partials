@@ -5,7 +5,7 @@ it may be painfull to findout which partial are rendered in certain place.
 
 For this purposes created gem painless_partials. It aimed to:
   :as-minimum: markup html/xml by comments with partial paths (done)
-  :as-maximum: provide service for partial coping from gem into main app (50% done)
+  :as-maximum: provide service for coping partial from gem into main app (50% done)
                or into some extension (site-theme and so on)
 
 It is usefurl, for example, in development of application based on spree.
