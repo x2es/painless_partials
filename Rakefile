@@ -1,5 +1,3 @@
-require File.expand_path('../../config/application', __FILE__)
-
 require 'rubygems'
 require 'rake'
 require 'rake/testtask'
@@ -22,8 +20,8 @@ end
 desc "Default Task"
 task :default => [ :spec ]
 
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new
+#require 'rspec/core/rake_task'
+#RSpec::Core::RakeTask.new
 
 # require 'cucumber/rake/task'
 # Cucumber::Rake::Task.new do |t|
