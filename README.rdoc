@@ -17,6 +17,12 @@ Works with Rails 3.0+
 Add gem into Gemfile
 
 <pre>
+  gem 'painless_partials'
+</pre>
+
+or
+
+<pre>
   gem 'painless_partials', :git => 'git://github.com/x2es/painless_partials.git'
 </pre>
 
