@@ -43,6 +43,11 @@ Also painless_partials gives tip about how to override partial. For example:
 In common case all you need it to point project or engine/extension dir in your 
 therminal and invoke this command.
 
+Tip will be shown only for "foreign" sources. "Foreign" means - sources placed 
+outside "#{Rails.root}/../". 
+So if you develop extensions placed in #{Rails.root}/../my-extensions/ - tip does not appears 
+for this sources.
+
 == Inspirited by
 
  * https://github.com/fcheung/tattler
