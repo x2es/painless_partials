@@ -1,32 +1,29 @@
-== PainlessPartials
+= PainlessPartials
 
 In case when we need to override some partial which may be plased in some engine-gem
 it may be painfull to findout which partial are rendered in certain place.
 
 For this purposes created gem painless_partials. It aimed to:
-  :as-minimum: markup html/xml by comments with partial paths (done)
-  :as-maximum: provide service for coping partial from gem into main app (50% done)
-               or into some extension (site-theme and so on)
+
+* as-minimum: markup html/xml by comments with partial paths (done)
+* as-maximum: provide service for coping partial from gem into main app (50% done)
+              or into some extension (site-theme and so on)
 
 It is usefurl, for example, in development of application based on spree.
 
 Works with Rails 3.0+
 
-=== Usage
+== Usage
 
 Add gem into Gemfile
 
-<pre>
   gem 'painless_partials'
-</pre>
 
 or
 
-<pre>
   gem 'painless_partials', :git => 'git://github.com/x2es/painless_partials.git'
-</pre>
 
-=== Example
+== Example
 
 Just open page source in browser and find comment "TEMPLATE /path/to/partial.html.erb" 
 placed above code which you want to override. For example:
@@ -54,3 +51,6 @@ for this sources.
 
 Also good partials helper with javascript ui: https://github.com/markevans/partial_identifier
 
+== Issues & TODO
+
+See https://github.com/x2es/painless_partials/issues
